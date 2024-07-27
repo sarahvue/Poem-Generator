@@ -35,7 +35,7 @@ form {
 }
 
 .instructions {
-  padding: 16px;
+  padding: 10px;
   border: 1 px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
@@ -53,6 +53,14 @@ form {
   border: none;
   border-radius: 50px;
   padding: 14px 24px;
+}
+
+.submit-button:hover {
+  background-color: #fff;
+  color: #885df1;
+  border: 1px solid #885df1;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .poem {
