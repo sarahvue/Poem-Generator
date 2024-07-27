@@ -21,6 +21,10 @@ function generatePoem(event) {
     autoStart: true,
     delay: 1,
   });
+
+  let poemContainer = document.querySelector("#poem");
+  poemContainer.classList.remove("hidden");
+
   axios.get(apiUrl).then(displayPoem);
 }
 
